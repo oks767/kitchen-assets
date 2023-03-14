@@ -1,589 +1,830 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
-    <link rel="icon" href="favicon.ico" type="image/ico"> 
-    
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
-<link href="/fonts/icons/styles.css" rel="stylesheet">
-<link href="./css/vendors.css" rel="stylesheet">
-<link href="./css/main.css" rel="stylesheet">
-<link rel="stylesheet" href="./fonts/fontello/css/fontello.css">
+    <link rel="icon" href="favicon.ico" type="image/ico" />
 
-    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/fonts/icons/styles.css" rel="stylesheet" />
+    <link href="./css/vendors.css" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./fonts/fontello/css/fontello.css" />
+
     <title>front-end starter</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div class="root home-page">
-
-        <header class="site-header">
-    <div class="container">
-        <div class="site-header__inner">
-            <a href="#" class="site-header__logo"><img src="./img/logo.svg" alt=""></a>
-            <div class="nav-burger "></div>
+      <header class="site-header">
+        <div class="container">
+          <div class="site-header__inner">
+            <a href="#" class="site-header__logo"
+              ><img src="./img/logo.svg" alt=""
+            /></a>
+            <div class="nav-burger"></div>
             <nav class="nav nav--desktop">
-                <span class="nav-close"></span>
-                <ul class="nav__list">
-                    <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Каталог</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Рассрочка</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Блог</a></li>
-                    <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
-                </ul>
-                <a href="tel:+37368159759" class="phone">+373 68 159 759</a>
-                <span class="lang">
-                    <span class="ru">Ru</span>
-                    <span class="en">En</span>
-                </span>
+              <span class="nav-close"></span>
+              <ul class="nav__list">
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Главная</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">О нас</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Каталог</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Рассрочка</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Блог</a>
+                </li>
+                <li class="nav__item">
+                  <a href="#" class="nav__link">Контакты</a>
+                </li>
+              </ul>
+              <a href="tel:+37368159759" class="phone">+373 68 159 759</a>
+              <span class="lang">
+                <span class="ru">Ru</span>
+                <span class="en">En</span>
+              </span>
             </nav>
+          </div>
         </div>
-    </div>
-</header>
+      </header>
 
-        <div class="site-main">
-            <section class="home-slider-wrap">
-                <div class="home-slider">
-                    <div class="home-slide"><img src="./img/bg.png" alt=""></div>
-                    <div class="home-slide"><img src="./img/bg.png" alt=""></div>
-                    <div class="home-slide"><img src="./img/bg.png" alt=""></div>
+      <div class="site-main">
+        <section class="home-slider-wrap">
+          <div class="home-slider">
+            <div class="home-slide"><img src="./img/bg.png" alt="" /></div>
+            <div class="home-slide"><img src="./img/bg.png" alt="" /></div>
+            <div class="home-slide"><img src="./img/bg.png" alt="" /></div>
+          </div>
+          <div class="home-slider-content">
+            <div class="container">
+              <h1 class="slider__title">КУХНИ НА ЗАКАЗ</h1>
+              <div class="slider__subtitle">
+                Стильная кухня от производителя по цене на 20% ниже рынка
+              </div>
+              <ul class="slider__list">
+                <li class="slider__list-item">Бесплатный дизайн проект</li>
+                <li class="slider__list-item">Гарантия лучшей Цены</li>
+                <li class="slider__list-item">Производство от 25 до 45 дней</li>
+                <li class="slider__list-item">
+                  Гарантийное обслуживание 5 лет
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
+        <section class="services">
+          <div class="container">
+            <h2 class="services__title">
+              Все еще не можете определиться с выбором кухни?
+            </h2>
+            <span class="line"></span>
+            <div class="services__inner">
+              <div class="services__card">
+                <div class="card-img">
+                  <img
+                    src="./img/card-1.png"
+                    alt=""
+                    class="services__card-img"
+                  />
                 </div>
-                <div class="home-slider-content">
+
+                <h3 class="services__card-title">
+                  Получите консультацию и эскиз мебели
+                </h3>
+              </div>
+              <div class="services__card">
+                <div class="card-img">
+                  <img
+                    src="./img/card-2.png"
+                    alt=""
+                    class="services__card-img"
+                  />
+                </div>
+                <h3 class="services__card-title">
+                  Подберем материалы сочетая цену и качество
+                </h3>
+              </div>
+              <div class="services__card">
+                <div class="card-img">
+                  <img
+                    src="./img/card-3.png"
+                    alt=""
+                    class="services__card-img"
+                  />
+                </div>
+                <h3 class="services__card-title">
+                  Подберем фурнитуру для удобства и комфорта
+                </h3>
+              </div>
+              <div class="services__card">
+                <div class="card-img">
+                  <img
+                    src="./img/card-4.png"
+                    alt=""
+                    class="services__card-img"
+                  />
+                </div>
+                <h3 class="services__card-title">
+                  Разработаем бесплатно 3D проект
+                </h3>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="kitchen">
+          <div class="container">
+            <div class="kitchen__inner">
+              <h2 class="kitchen__title">Закажи Кухню</h2>
+              <span class="line"></span>
+              <div class="subtitle">Получи</div>
+              <span class="bg-yellow">Посудомоечную Машину</span>
+              <div class="subtitle-two">В подарок</div>
+              <div class="action-img">
+                <img src="./img/Group-kitchen.png" alt="" />
+              </div>
+
+              <div class="timer">
+                <div class="timer__items">
+                  <div class="timer__item">
+                    <span class="timer__days"></span>
+                    <div class="time">Дней</div>
+                  </div>
+                  <div class="timer__item">
+                    <span class="timer__hours"></span>
+                    <div class="time">Часов</div>
+                  </div>
+                  <div class="timer__item">
+                    <span class="timer__minutes"></span>
+                    <div class="time">Минут</div>
+                  </div>
+                  <div class="timer__item">
+                    <span class="timer__seconds"></span>
+                    <div class="time">Секунд</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="work">
+          <div class="container">
+            <h2 class="work__title">Наши работы</h2>
+            <span class="line"></span>
+
+            <div class="work__inner">
+              <div class="work__card">
+                <a href="#" class="work__card-link">
+                  <div class="work__card-img">
+                    <img src="./img/work.jpg" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h3 class="work__card-title">Severin</h3>
+                    <span class="work__card-item">
+                      <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
+                      <div class="sale-two">
+                        БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев
+                      </div>
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="work__card">
+                <a href="#" class="work__card-link">
+                  <div class="work__card-img">
+                    <img src="./img/work.jpg" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h3 class="work__card-title">Severin</h3>
+                    <span class="work__card-item">
+                      <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
+                      <div class="sale-two">
+                        БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев
+                      </div>
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="work__card">
+                <a href="#" class="work__card-link">
+                  <div class="work__card-img">
+                    <img src="./img/work.jpg" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h3 class="work__card-title">Severin</h3>
+                    <span class="work__card-item">
+                      <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
+                      <div class="sale-two">
+                        БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев
+                      </div>
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="work__card">
+                <a href="#" class="work__card-link">
+                  <div class="work__card-img">
+                    <img src="./img/work.jpg" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h3 class="work__card-title">Severin</h3>
+                    <span class="work__card-item">
+                      <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
+                      <div class="sale-two">
+                        БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев
+                      </div>
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="work__card">
+                <a href="#" class="work__card-link">
+                  <div class="work__card-img">
+                    <img src="./img/work.jpg" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h3 class="work__card-title">Severin</h3>
+                    <span class="work__card-item">
+                      <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
+                      <div class="sale-two">
+                        БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев
+                      </div>
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="work__card">
+                <a href="#" class="work__card-link">
+                  <div class="work__card-img">
+                    <img src="./img/work.jpg" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h3 class="work__card-title">Severin</h3>
+                    <span class="work__card-item">
+                      <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
+                      <div class="sale-two">
+                        БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев
+                      </div>
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="work__card">
+                <a href="#" class="work__card-link">
+                  <div class="work__card-img">
+                    <img src="./img/work.jpg" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h3 class="work__card-title">Severin</h3>
+                    <span class="work__card-item">
+                      <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
+                      <div class="sale-two">
+                        БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев
+                      </div>
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="work__card">
+                <a href="#" class="work__card-link">
+                  <div class="work__card-img">
+                    <img src="./img/work.jpg" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h3 class="work__card-title">Severin</h3>
+                    <span class="work__card-item">
+                      <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
+                      <div class="sale-two">
+                        БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев
+                      </div>
+                    </span>
+                  </div>
+                </a>
+              </div>
+              <div class="work__card">
+                <a href="#" class="work__card-link">
+                  <div class="work__card-img">
+                    <img src="./img/work.jpg" alt="" />
+                  </div>
+                  <div class="card-text">
+                    <h3 class="work__card-title">Severin</h3>
+                    <span class="work__card-item">
+                      <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
+                      <div class="sale-two">
+                        БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев
+                      </div>
+                    </span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <button class="more">Раскрыть Ещё</button>
+          </div>
+        </section>
+
+        <section class="benefits">
+          <div class="container">
+            <h2 class="benefits__title">Наши преимущества</h2>
+            <span class="line"></span>
+            <div class="benefits-wrap">
+              <div class="benefits__item">
+                <div class="best-price"></div>
+                <h3 class="item-title">ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ</h3>
+                <p class="item-text">
+                  Мы производители, поэтому сможем предложить вам лучшую
+                  стоимость под ваш запрос.
+                </p>
+              </div>
+              <div class="benefits__item">
+                <div class="credit-card"></div>
+                <h3 class="item-title">ОПЛАТА В РАССРОЧКУ</h3>
+                <p class="item-text">
+                  Получи сейчас желаемую кухню без аванса и первоначального
+                  взноса, оплачивайте равными платежами в течение 12 месяцев.
+                </p>
+              </div>
+              <div class="benefits__item">
+                <div class="schedule"></div>
+                <h3 class="item-title">ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ</h3>
+                <p class="item-text">
+                  Произведем вашу кухню по индивидуальному проекту за 25 - 45
+                  дней.
+                </p>
+              </div>
+              <div class="benefits__item">
+                <div class="shield"></div>
+                <h3 class="item-title">ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ</h3>
+                <p class="item-text">
+                  Мы гарантируем 100% качество без брака. Проводим пробный
+                  монтаж кухни в цеху, проверяя тем самым ее качество и все
+                  детали.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="record-kitchen">
+          <div class="record-kitchen-bg"></div>
+          <div class="record-kitchen-text">
+            <div class="container">
+              <h2 class="record-kitchen__title">Закажи кухню</h2>
+              <span class="black">и получи 10% скидку</span>
+              <p class="record-text">
+                на всю бытовую технику в сети Bomba и Maximum
+              </p>
+              <button class="record-btn">Заказать Кухню</button>
+            </div>
+          </div>
+        </section>
+        <section class="kitchen-video">
+          <div class="container">
+            <h2 class="kitchen-video__title">Наши видео кейсы</h2>
+            <span class="line"></span>
+            <div class="video-wrap">
+              <div class="video-item">
+                <iframe
+                  src="https://www.youtube.com/embed/TWAgV_JfN0I"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="video-item">
+                <iframe
+                  width="296"
+                  height="170"
+                  src="https://www.youtube.com/embed/TWAgV_JfN0I"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <div class="video-item">
+                <iframe
+                  width="296"
+                  height="170"
+                  src="https://www.youtube.com/embed/TWAgV_JfN0I"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="mask">
+          <div class="bg-mask">
+            <div class="container">
+              <div class="mask__inner">
+                <h2 class="mask__title">
+                  Получите бесплатно дизайн проект кухни и консультацию
+                  дизайнера
+                </h2>
+                <p class="mask-text">
+                  Вы узнаете точную стоимость вашей кухни и получите 3D-проект
+                </p>
+                <input class="mask-tel" type="tel" placeholder="Ваш телефон" />
+                <button class="mask-btn">Записаться</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="mission">
+          <div class="container">
+            <h2 class="mission__title">Миссия Amatto</h2>
+            <span class="line"></span>
+            <p class="mission__text">
+              Мы стремимся создать идеальное пространство в котором человеку
+              будет комфортно находиться, отдыхать, готовить и весело проводить
+              время со своими друзьями и близкими
+            </p>
+            <div class="mission__video">
+              <iframe
+                src="https://www.youtube.com/embed/1g4ZVilOpL4"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
+
+        <section class="calc">
+          <div class="container">
+            <h2 class="calc__title">Покупай в рассрочку!</h2>
+            <span class="line"></span>
+          </div>
+          <div class="container">
+            <div class="calc__inner">
+              <div class="calc__wrap">
+                <div class="container">
+                  <p class="calc__text">
+                    Ваша новая кухня без денег и предоплаты!
+                  </p>
+                  <ul class="calc__list">
+                    <li class="calc__item">рассрочка 12 месяцев</li>
+                    <li class="calc__item">без комиссии и процентов</li>
+                  </ul>
+                </div>
+                <form class="form">
+                  <div class="container">
+                    <label class="label-text" for="budget"
+                      >Ваш Бюджет € :</label
+                    >
+                    <input type="number" id="budget" class="budget" />
+                    <label for="period" class="label-text"
+                      >Промежуток Рассрочки В Месяцах :</label
+                    >
+                    <input type="number" id="period" class="period" />
+                    <label for="contribution" class="label-text"
+                      >Первоначальный Взнос %</label
+                    >
+                    <input
+                      type="number"
+                      class="contribution"
+                      id="contribution"
+                    />
+                  </div>
+                  <div class="bg">
                     <div class="container">
-                        <h1 class="slider__title">КУХНИ НА ЗАКАЗ</h1>
-                        <div class="slider__subtitle">Стильная кухня от производителя по цене на 20% ниже рынка</div>
-                        <ul class="slider__list">
-                            <li class="slider__list-item">Бесплатный дизайн проект</li>
-                            <li class="slider__list-item">Гарантия лучшей Цены</li>
-                            <li class="slider__list-item">Производство от 25 до 45 дней</li>
-                            <li class="slider__list-item">Гарантийное обслуживание 5 лет</li>
-                        </ul>
+                      <label for="month" class="semibold-text"
+                        >ЕЖЕМЕСЯЧНЫЙ ПЛАТЁЖ:</label
+                      >
+                      <span id="month" class="month">0</span>
                     </div>
+                  </div>
+                  <div class="container">
+                    <input
+                      type="text"
+                      class="name"
+                      name="name"
+                      placeholder="Введите Ваше имя"
+                    />
+                    <input
+                      type="text"
+                      class="tel"
+                      name="phone"
+                      placeholder="Введите Ваш телефон"
+                    />
+                    <button class="calc__send">
+                      Отправить заявку на рассрочку
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="calc__img">
+                <img src="./img/calc.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="process">
+          <div class="container">
+            <h2 class="process__title">
+              Как выстроен процесс работы с нашими клиентами
+            </h2>
+            <span class="line"></span>
+            <div class="process__wrap">
+              <div class="process__item">
+                <div class="process__img">
+                  <img src="./img/record.jpg" alt="" />
                 </div>
-            </section>
-
-            <section class="services">
-                <div class="container">
-                    <h2 class="services__title">Все еще не можете определиться с выбором кухни?</h2>
-                    <span class="line"></span>
-                    <div class="services__inner">
-                        <div class="services__card">
-                            <div class="card-img"><img src="./img/card-1.png" alt="" class="services__card-img"></div>
-
-                            <h3 class="services__card-title">Получите консультацию и эскиз мебели</h3>
-                        </div>
-                        <div class="services__card">
-                            <div class="card-img"><img src="./img/card-2.png" alt="" class="services__card-img"></div>
-                            <h3 class="services__card-title">Подберем материалы сочетая цену и качество</h3>
-                        </div>
-                        <div class="services__card">
-                            <div class="card-img"><img src="./img/card-3.png" alt="" class="services__card-img"></div>
-                            <h3 class="services__card-title">Подберем фурнитуру для удобства и комфорта</h3>
-                        </div>
-                        <div class="services__card">
-                            <div class="card-img"><img src="./img/card-4.png" alt="" class="services__card-img"></div>
-                            <h3 class="services__card-title">Разработаем бесплатно 3D проект</h3>
-                        </div>
-                    </div>
+                <div class="process__item-title">1 - Запись</div>
+                <p class="process__item-text">
+                  Запишитесь на консультацию по телефону или онлайн
+                </p>
+              </div>
+              <div class="process__item">
+                <div class="process__img">
+                  <img src="./img/process-two.jpg" alt="" />
                 </div>
-            </section>
-
-            <section class="kitchen">
-                <div class="container">
-                    <div class="kitchen__inner">
-                        <h2 class="kitchen__title">Закажи Кухню</h2>
-                        <span class="line"></span>
-                        <div class="subtitle">Получи</div>
-                        <span class="bg-yellow">Посудомоечную Машину</span>
-                        <div class="subtitle-two">В подарок</div>
-                        <div class="action-img">
-                            <img src="./img/Group-kitchen.png" alt="">
-                        </div>
-
-                        <div class="timer">
-                            <div class="timer__items">
-                                <div class="timer__item"><span class="timer__days">00</span>
-                                    <div class="time">Дней</div>
-                                </div>
-                                <div class="timer__item "><span class="timer__hours">00</span>
-                                    <div class="time">Часов</div>
-                                </div>
-                                <div class="timer__item"><span class="timer__minutes">00</span>
-                                    <div class="time">Минут</div>
-                                </div>
-                                <div class="timer__item"><span class="timer__seconds">00</span>
-                                    <div class="time">Секунд</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="process__item-title">2 - Замер</div>
+                <p class="process__item-text">
+                  Снимем замеры стен и потолков, рекомендуем, как провести
+                  коммуникации, определим размещение секции
+                </p>
+              </div>
+              <div class="process__item">
+                <div class="process__img">
+                  <img src="./img/process-three.jpg" alt="" />
                 </div>
-            </section>
-
-            <section class="work">
-                <div class="container">
-                    <h2 class="work__title">Наши работы</h2>
-                    <span class="line"></span>
-
-                    <div class="work__inner">
-                        <div class="work__card">
-                            <a href="#" class="work__card-link">
-                                <div class="work__card-img"><img src="./img/work.jpg" alt=""></div>
-                                <div class="card-text">
-                                    <h3 class="work__card-title">Severin</h3>
-                                    <span class="work__card-item">
-                                        <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
-                                        <div class="sale-two">БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев</div>
-                                    </span>
-                                </div>
-
-                            </a>
-                        </div>
-                        <div class="work__card">
-                            <a href="#" class="work__card-link">
-                                <div class="work__card-img"><img src="./img/work.jpg" alt=""></div>
-                                <div class="card-text">
-                                    <h3 class="work__card-title">Severin</h3>
-                                    <span class="work__card-item">
-                                        <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
-                                        <div class="sale-two">БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев</div>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="work__card">
-                            <a href="#" class="work__card-link">
-                                <div class="work__card-img"><img src="./img/work.jpg" alt=""></div>
-                                <div class="card-text">
-                                    <h3 class="work__card-title">Severin</h3>
-                                    <span class="work__card-item">
-                                        <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
-                                        <div class="sale-two">БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев</div>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="work__card">
-                            <a href="#" class="work__card-link">
-                                <div class="work__card-img"><img src="./img/work.jpg" alt=""></div>
-                                <div class="card-text">
-                                    <h3 class="work__card-title">Severin</h3>
-                                    <span class="work__card-item">
-                                        <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
-                                        <div class="sale-two">БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев</div>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="work__card">
-                            <a href="#" class="work__card-link">
-                                <div class="work__card-img"><img src="./img/work.jpg" alt=""></div>
-                                <div class="card-text">
-                                    <h3 class="work__card-title">Severin</h3>
-                                    <span class="work__card-item">
-                                        <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
-                                        <div class="sale-two">БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев</div>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="work__card">
-                            <a href="#" class="work__card-link">
-                                <div class="work__card-img"><img src="./img/work.jpg" alt=""></div>
-                                <div class="card-text">
-                                    <h3 class="work__card-title">Severin</h3>
-                                    <span class="work__card-item">
-                                        <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
-                                        <div class="sale-two">БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев</div>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="work__card">
-                            <a href="#" class="work__card-link">
-                                <div class="work__card-img"><img src="./img/work.jpg" alt=""></div>
-                                <div class="card-text">
-                                    <h3 class="work__card-title">Severin</h3>
-                                    <span class="work__card-item">
-                                        <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
-                                        <div class="sale-two">БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев</div>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="work__card">
-                            <a href="#" class="work__card-link">
-                                <div class="work__card-img"><img src="./img/work.jpg" alt=""></div>
-                                <div class="card-text">
-                                    <h3 class="work__card-title">Severin</h3>
-                                    <span class="work__card-item">
-                                        <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
-                                        <div class="sale-two">БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев</div>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="work__card">
-                            <a href="#" class="work__card-link">
-                                <div class="work__card-img"><img src="./img/work.jpg" alt=""></div>
-                                <div class="card-text">
-                                    <h3 class="work__card-title">Severin</h3>
-                                    <span class="work__card-item">
-                                        <div class="sale">11 654 ЛЕЙ / МЕСЯЦ</div>
-                                        <div class="sale-two">БЕЗ ПЕРВОГО ВЗНОСА - 12 месяцев</div>
-                                    </span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <button class="more">Раскрыть Ещё</button>
+                <div class="process__item-title">3 - Запись</div>
+                <p class="process__item-text">
+                  Дизайнер разрабатывает дизайн проект по вашим пожеланиям,
+                  подбирает материалы, учитывая планировку и ваш бюджет
+                </p>
+              </div>
+              <div class="process__item">
+                <div class="process__img">
+                  <img src="./img/design.jpg" alt="" />
                 </div>
-            </section>
-
-            <section class="benefits">
-                <div class="container">
-                    <h2 class="benefits__title">Наши преимущества</h2>
-                    <span class="line"></span>
-                    <div class="benefits-wrap">
-                        <div class="benefits__item">
-                            <div class="best-price"></div>
-                            <h3 class="item-title">ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ</h3>
-                            <p class="item-text">Мы производители, поэтому сможем предложить вам лучшую стоимость под
-                                ваш запрос.</p>
-                        </div>
-                        <div class="benefits__item">
-                            <div class="credit-card"></div>
-                            <h3 class="item-title">ОПЛАТА В
-                                РАССРОЧКУ</h3>
-                            <p class="item-text">Получи сейчас желаемую кухню без аванса и первоначального взноса,
-                                оплачивайте равными платежами в течение 12 месяцев.</p>
-                        </div>
-                        <div class="benefits__item">
-                            <div class="schedule"></div>
-                            <h3 class="item-title">ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ</h3>
-                            <p class="item-text">Произведем вашу кухню по индивидуальному проекту за 25 - 45 дней.</p>
-                        </div>
-                        <div class="benefits__item">
-                            <div class="shield"></div>
-                            <h3 class="item-title">ГАРАНТИЯ ЛУЧШЕЙ ЦЕНЫ</h3>
-                            <p class="item-text">Мы гарантируем 100% качество без брака. Проводим пробный монтаж кухни в
-                                цеху, проверяя тем самым ее качество и все детали.</p>
-                        </div>
-                    </div>
+                <div class="process__item-title">4 - Дизайн</div>
+                <p class="process__item-text">
+                  Срок изготовления кухни от 25 дней
+                </p>
+              </div>
+              <div class="process__item">
+                <div class="process__img">
+                  <img src="./img/result.jpg" alt="" />
                 </div>
-            </section>
+                <div class="process__item-title">5 - Производство</div>
+                <p class="process__item-text">
+                  Быстро и качественно установим мебель и встраиваемую технику
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-            <section class="record-kitchen">
-
-                <div class="record-kitchen-bg"></div>
-                <div class="record-kitchen-text">
-                    <div class="container">
-                        <h2 class="record-kitchen__title">Закажи кухню</h2>
-                        <span class="black">и получи 10% скидку</span>
-                        <p class="record-text">на всю бытовую технику в сети Bomba и Maximum</p>
-                        <button class="record-btn">Заказать Кухню</button>
-                    </div>
+        <section class="professional">
+          <div class="container">
+            <h2 class="professional__title">
+              Доверьте вашу кухню профессионалам
+            </h2>
+            <span class="line"></span>
+            <div class="professional__wrap">
+              <div class="professional__item">
+                <div class="professional__img">
+                  <img src="./img/professional-one.jpg" alt="" />
                 </div>
-
-            </section>
-            <section class="kitchen-video">
-                <div class="container">
-                    <h2 class="kitchen-video__title">Наши видео кейсы</h2>
-                    <span class="line"></span>
-                    <div class="video-wrap">
-                        <div class="video-item">
-                            <iframe src="https://www.youtube.com/embed/TWAgV_JfN0I" title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-                        <div class="video-item"><iframe width="296" height="170"
-                                src="https://www.youtube.com/embed/TWAgV_JfN0I" title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe></div>
-                        <div class="video-item"><iframe width="296" height="170"
-                                src="https://www.youtube.com/embed/TWAgV_JfN0I" title="YouTube video player"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe></div>
-                    </div>
+                <div class="professional__name">Татьяна</div>
+                <div class="professional__prof">Дизайнер</div>
+                <p class="professional__text">
+                  "Кухня должна быть одновременно красивой и удобной". Любит
+                  сложные, нестандартные и яркие проекты.
+                </p>
+              </div>
+              <div class="professional__item">
+                <div class="professional__img">
+                  <img src="./img/professional-two.jpg" alt="" />
                 </div>
-            </section>
-
-            <section class="mask">
-                <div class="bg-mask">
-                    <div class="container">
-                        <div class="mask__inner">
-                            <h2 class="mask__title">Получите бесплатно дизайн проект кухни и консультацию дизайнера</h2>
-                            <p class="mask-text">Вы узнаете точную стоимость вашей кухни и получите 3D-проект</p>
-                            <input class="mask-tel" type="tel" placeholder="Ваш телефон">
-                            <button class="mask-btn">Записаться</button>
-                        </div>
-                    </div>
+                <div class="professional__name">Светлана</div>
+                <div class="professional__prof">Дизайнер</div>
+                <p class="professional__text">
+                  "Дизайнер с 20 летним опытом работы с мебелью. Работала на
+                  крупнейших молдавских фабриках, досконально разбирается в
+                  устройстве кухонь..
+                </p>
+              </div>
+              <div class="professional__item">
+                <div class="professional__img">
+                  <img src="./img/professional-three.jpg" alt="" />
                 </div>
-            </section>
+                <div class="professional__name">Кристиан</div>
+                <div class="professional__prof">Дизайнер</div>
+                <p class="professional__text">
+                  Опыт работы 5 лет. Художник, преподает в школе дизайна. Делает
+                  в кухнях акцент на эстетике и красоте.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-            <section class="mission">
-                <div class="container">
-                    <h2 class="mission__title">Миссия Amatto</h2>
-                    <span class="line"></span>
-                    <p class="mission__text">Мы стремимся создать идеальное пространство в котором человеку будет
-                        комфортно находиться, отдыхать, готовить и весело проводить время со своими друзьями и близкими
-                    </p>
-                    <div class="mission__video"><iframe src="https://www.youtube.com/embed/1g4ZVilOpL4"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe></div>
+        <section class="errors">
+          <div class="container">
+            <h2 class="errors__title">Четыре ошибки при выборе кухни</h2>
+            <span class="line"></span>
+
+            <div class="errors__wrap">
+              <div class="errors__item">
+                <img src="./img/one.svg" alt="" class="errors__icon" />
+                <div class="errors__item-title">
+                  Сделаю проект сам или мне разработали на бумажке
                 </div>
-            </section>
-
-            <section class="calc">
-                <div class="container">
-                    <h2 class="calc__title">Покупай в рассрочку!</h2>
-                    <span class="line"></span>
+                <p class="errors__item-text">
+                  Не удобно расположены зоны складирования, не предусмотрено
+                  место для хранения, не удобно и раздражает
+                </p>
+              </div>
+              <div class="errors__item">
+                <img src="./img/one.svg" alt="" class="errors__icon" />
+                <div class="errors__item-title">
+                  Нет договора и описания, что входит в стоимость
                 </div>
-                <div class="container">
-                    <div class="calc__inner">
-                        <div class="calc__wrap">
-                            <div class="container">
-                                <p class="calc__text">Ваша новая кухня без денег и предоплаты!</p>
-                                <ul class="calc__list">
-                                    <li class="calc__item">рассрочка 12 месяцев</li>
-                                    <li class="calc__item">без комиссии и процентов</li>
-                                </ul>
-                            </div>
-                            <form class="form">
-                                <div class="container">
-                                    <label class="label-text" for="budget">Ваш Бюджет € :</label>
-                                    <input type="number" id="budget" class="budget">
-                                    <label for="period" class="label-text">Промежуток Рассрочки В Месяцах :</label>
-                                    <input type="number" id="period" class="period">
-                                    <label for="contribution" class="label-text">Первоначальный Взнос %</label>
-                                    <input type="number" class="contribution" id="contribution">
-                                </div>
-                                <div class="bg">
-                                    <div class="container">
-                                        <label for="month" class="semibold-text">ЕЖЕМЕСЯЧНЫЙ ПЛАТЁЖ:</label>
-                                        <span id="month" class="month">0</span>
-                                    </div>
-                                </div>
-                                <div class="container">
-                                    <input type="text" class="name" name="name" placeholder="Введите Ваше имя">
-                                    <input type="text" class="tel" name="phone" placeholder="Введите Ваш телефон">
-                                    <button class="calc__send">Отправить заявку на рассрочку</button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="calc__img">
-                            <img src="./img/calc.jpg" alt="">
-                        </div>
-                    </div>
+                <p class="errors__item-text">
+                  Фурнитура низкого качества, нет гарантии качества, при браке
+                  нет с кого спросить, получаете не то, за что платили
+                </p>
+              </div>
+              <div class="errors__item">
+                <img src="./img/one.svg" alt="" class="errors__icon" />
+                <div class="errors__item-title">Частный мастер</div>
+                <p class="errors__item-text">
+                  Не соблюдение технологии изготовления, сроки и качество не
+                  указаны, через 6 месяцев требуется замена материалов
+                </p>
+              </div>
+              <div class="errors__item">
+                <img src="./img/one.svg" alt="" class="errors__icon" />
+                <div class="errors__item-title">
+                  Известная компания или бренд
                 </div>
-            </section>
+                <p class="errors__item-text">
+                  Не удобно расположены зоны складирования, не предусмотрено
+                  место для хранения, не удобно и раздражает
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
 
-            <section class="process">
-                <div class="container">
-                    <h2 class="process__title">Как выстроен процесс работы с нашими клиентами</h2>
-                    <span class="line"></span>
-                    <div class="process__wrap">
-                        <div class="process__item">
-                            <div class="process__img"><img src="./img/record.jpg" alt=""></div>
-                            <div class="process__item-title">1 - Запись</div>
-                            <p class="process__item-text">Запишитесь на консультацию
-                                по телефону или онлайн</p>
-                        </div>
-                        <div class="process__item">
-                            <div class="process__img"><img src="./img/process-two.jpg" alt=""></div>
-                            <div class="process__item-title">2 - Замер</div>
-                            <p class="process__item-text">Снимем замеры стен и потолков, рекомендуем, как провести
-                                коммуникации, определим размещение секции</p>
-                        </div>
-                        <div class="process__item">
-                            <div class="process__img"><img src="./img/process-three.jpg" alt=""></div>
-                            <div class="process__item-title">3 - Запись</div>
-                            <p class="process__item-text">Дизайнер разрабатывает дизайн проект по вашим пожеланиям,
-                                подбирает материалы, учитывая планировку и ваш бюджет</p>
-                        </div>
-                        <div class="process__item">
-                            <div class="process__img"><img src="./img/design.jpg" alt=""></div>
-                            <div class="process__item-title">4 - Дизайн</div>
-                            <p class="process__item-text">Срок изготовления кухни от 25 дней</p>
-                        </div>
-                        <div class="process__item">
-                            <div class="process__img"><img src="./img/result.jpg" alt=""></div>
-                            <div class="process__item-title">5 - Производство</div>
-                            <p class="process__item-text">Быстро и качественно установим мебель и встраиваемую технику
-                            </p>
-                        </div>
-                    </div>
+        <section class="mask">
+          <div class="bg-mask">
+            <div class="container">
+              <div class="mask__inner">
+                <h2 class="mask__title">
+                  Получите бесплатно дизайн проект кухни и консультацию
+                  дизайнера
+                </h2>
+                <p class="mask-text">
+                  Вы узнаете точную стоимость вашей кухни и получите 3D-проект
+                </p>
+                <input class="mask-tel" type="tel" placeholder="Ваш телефон" />
+                <button class="mask-btn">Записаться</button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="blog">
+          <div class="container">
+            <h2 class="blog__title">Блог</h2>
+            <span class="line"></span>
+            <div class="blog__wrap">
+              <div class="blog__item">
+                <div class="blog__img">
+                  <img src="./img/blog-one.jpg" alt="" />
                 </div>
-            </section>
-
-            <section class="professional">
-                <div class="container">
-                    <h2 class="professional__title">Доверьте вашу кухню профессионалам</h2>
-                    <span class="line"></span>
-                    <div class="professional__wrap">
-                        <div class="professional__item">
-                            <div class="professional__img"><img src="./img/professional-one.jpg" alt=""></div>
-                            <div class="professional__name">Татьяна</div>
-                            <div class="professional__prof">Дизайнер</div>
-                            <p class="professional__text">"Кухня должна быть одновременно красивой и удобной". Любит
-                                сложные, нестандартные и яркие проекты.</p>
-                        </div>
-                        <div class="professional__item">
-                            <div class="professional__img"><img src="./img/professional-two.jpg" alt=""></div>
-                            <div class="professional__name">Светлана</div>
-                            <div class="professional__prof">Дизайнер</div>
-                            <p class="professional__text">"Дизайнер с 20 летним опытом работы с мебелью. Работала на
-                                крупнейших молдавских фабриках, досконально разбирается в устройстве кухонь..</p>
-                        </div>
-                        <div class="professional__item">
-                            <div class="professional__img"><img src="./img/professional-three.jpg" alt=""></div>
-                            <div class="professional__name">Кристиан</div>
-                            <div class="professional__prof">Дизайнер</div>
-                            <p class="professional__text">Опыт работы 5 лет. Художник, преподает в школе дизайна. Делает
-                                в кухнях акцент на эстетике и красоте.</p>
-                        </div>
-                    </div>
+                <div class="blog__date">март 11, 2022</div>
+                <div class="blog__item-title">
+                  Из чего складывается стоимость кухни?
                 </div>
-            </section>
-
-            <section class="errors">
-                <div class="container">
-                    <h2 class="errors__title">
-                        Четыре ошибки при выборе кухни
-                    </h2>
-                    <span class="line"></span>
-
-                    <div class="errors__wrap">
-                        <div class="errors__item">
-                            <img src="./img/one.svg" alt="" class="errors__icon">
-                            <div class="errors__item-title">Сделаю проект сам или мне разработали на бумажке</div>
-                            <p class="errors__item-text">Не удобно расположены зоны складирования, не предусмотрено
-                                место для хранения, не удобно и раздражает</p>
-                        </div>
-                        <div class="errors__item">
-                            <img src="./img/one.svg" alt="" class="errors__icon">
-                            <div class="errors__item-title">Нет договора и описания, что входит в стоимость</div>
-                            <p class="errors__item-text">Фурнитура низкого качества, нет гарантии качества, при браке нет с кого спросить, получаете не то, за что платили</p>
-                        </div>
-                        <div class="errors__item">
-                            <img src="./img/one.svg" alt="" class="errors__icon">
-                            <div class="errors__item-title">Частный
-                                мастер</div>
-                            <p class="errors__item-text">Не соблюдение технологии изготовления, сроки и качество не указаны, через 6 месяцев требуется замена материалов</p>
-                        </div>
-                        <div class="errors__item">
-                            <img src="./img/one.svg" alt="" class="errors__icon">
-                            <div class="errors__item-title">Известная
-                                компания или бренд</div>
-                            <p class="errors__item-text">Не удобно расположены зоны складирования, не предусмотрено
-                                место для хранения, не удобно и раздражает</p>
-                        </div>
-                    </div>
+                <div class="blog__item-text">
+                  рассказывает дизайнер Светлана
                 </div>
-            </section>
-
-            <section class="mask">
-                <div class="bg-mask">
-                    <div class="container">
-                        <div class="mask__inner">
-                            <h2 class="mask__title">Получите бесплатно дизайн проект кухни и консультацию дизайнера</h2>
-                            <p class="mask-text">Вы узнаете точную стоимость вашей кухни и получите 3D-проект</p>
-                            <input class="mask-tel" type="tel" placeholder="Ваш телефон">
-                            <button class="mask-btn">Записаться</button>
-                        </div>
-                    </div>
+                <button class="blog__btn">Прочесть за 7 минут</button>
+              </div>
+              <div class="blog__item">
+                <div class="blog__img">
+                  <img src="./img/blog-two.jpg" alt="" />
                 </div>
-            </section>
-
-            <section class="blog">
-                <div class="container">
-                    <h2 class="blog__title">Блог</h2>
-                    <span class="line"></span>
-                    <div class="blog__wrap">
-                        <div class="blog__item">
-                            <div class="blog__img"><img src="./img/blog-one.jpg" alt=""></div>
-                            <div class="blog__date">март 11, 2022</div>
-                            <div class="blog__item-title">Из чего складывается стоимость кухни?</div>
-                            <div class="blog__item-text">рассказывает дизайнер Светлана</div>
-                            <button class="blog__btn">Прочесть за 7 минут</button>
-                        </div>
-                        <div class="blog__item">
-                            <div class="blog__img"><img src="./img/blog-two.jpg" alt=""></div>
-                            <div class="blog__date">март 11, 2022</div>
-                            <div class="blog__item-title">Из чего складывается стоимость кухни?</div>
-                            <div class="blog__item-text">рассказывает дизайнер Светлана</div>
-                            <button class="blog__btn">Прочесть за 7 минут</button>
-                        </div>
-                        <div class="blog__item">
-                            <div class="blog__img"><img src="./img/blog-three.jpg" alt=""></div>
-                            <div class="blog__date">март 11, 2022</div>
-                            <div class="blog__item-title">Из чего складывается стоимость кухни?</div>
-                            <div class="blog__item-text">рассказывает дизайнер Светлана</div>
-                            <button class="blog__btn">Прочесть за 7 минут</button>
-                        </div>
-                    </div>
+                <div class="blog__date">март 11, 2022</div>
+                <div class="blog__item-title">
+                  Из чего складывается стоимость кухни?
                 </div>
-            </section>
-        </div>
+                <div class="blog__item-text">
+                  рассказывает дизайнер Светлана
+                </div>
+                <button class="blog__btn">Прочесть за 7 минут</button>
+              </div>
+              <div class="blog__item">
+                <div class="blog__img">
+                  <img src="./img/blog-three.jpg" alt="" />
+                </div>
+                <div class="blog__date">март 11, 2022</div>
+                <div class="blog__item-title">
+                  Из чего складывается стоимость кухни?
+                </div>
+                <div class="blog__item-text">
+                  рассказывает дизайнер Светлана
+                </div>
+                <button class="blog__btn">Прочесть за 7 минут</button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
 
-        <footer class="site-footer" role="contentinfo">
-    <div class="container">
-        <div class="footer-inner">
-            <a href="#" class="logo-footer"><img src="./img/logo.svg" alt=""></a>
+      <footer class="site-footer" role="contentinfo">
+        <div class="container">
+          <div class="footer-inner">
+            <a href="#" class="logo-footer"
+              ><img src="./img/logo.svg" alt=""
+            /></a>
 
             <ul class="list__social">
-                <li class="list__social-item"><a href="#" class="social-link">
-                        <img src="./img/fb.svg" alt="">
-                    </a></li>
-                <li class="list__social-item"><a href="#" class="social-link"><img src="./img/in.svg" alt=""></a></li>
-                <li class="list__social-item"><a href="#" class="social-link">
-                        <img src="./img/inst.svg" alt="">
-                    </a></li>
-                <li class="list__social-item"><a href="#" class="social-link">
-                        <img src="./img/viber.svg" alt="">
-                    </a></li>
-                <li class="list__social-item"><a href="#" class="social-link">
-                        <img src="./img/yt.svg" alt="">
-                    </a></li>
-                <li class="list__social-item"><a href="#" class="social-link">
-                        <img src="./img/whatsapp.svg" alt="">
-                    </a></li>
+              <li class="list__social-item">
+                <a href="#" class="social-link">
+                  <img src="./img/fb.svg" alt="" />
+                </a>
+              </li>
+              <li class="list__social-item">
+                <a href="#" class="social-link"
+                  ><img src="./img/in.svg" alt=""
+                /></a>
+              </li>
+              <li class="list__social-item">
+                <a href="#" class="social-link">
+                  <img src="./img/inst.svg" alt="" />
+                </a>
+              </li>
+              <li class="list__social-item">
+                <a href="#" class="social-link">
+                  <img src="./img/viber.svg" alt="" />
+                </a>
+              </li>
+              <li class="list__social-item">
+                <a href="#" class="social-link">
+                  <img src="./img/yt.svg" alt="" />
+                </a>
+              </li>
+              <li class="list__social-item">
+                <a href="#" class="social-link">
+                  <img src="./img/whatsapp.svg" alt="" />
+                </a>
+              </li>
             </ul>
             <div class="links-wrap">
-                <h2 class="footer__title">Links</h2>
-                <ul class="links-list">
-                    <li class="links-item"><a href="#" class="link">Главная</a></li>
-                    <li class="links-item"><a href="#" class="link">о нас</a></li>
-                    <li class="links-item"><a href="#" class="link">Каталог</a></li>
-                    <li class="links-item"><a href="#" class="link">Рассрочка</a></li>
-                    <li class="links-item"><a href="#" class="link">блог</a></li>
-                    <li class="links-item"><a href="#" class="link">контакты</a></li>
-                </ul>
+              <h2 class="footer__title">Links</h2>
+              <ul class="links-list">
+                <li class="links-item"><a href="#" class="link">Главная</a></li>
+                <li class="links-item"><a href="#" class="link">о нас</a></li>
+                <li class="links-item"><a href="#" class="link">Каталог</a></li>
+                <li class="links-item">
+                  <a href="#" class="link">Рассрочка</a>
+                </li>
+                <li class="links-item"><a href="#" class="link">блог</a></li>
+                <li class="links-item">
+                  <a href="#" class="link">контакты</a>
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
-    </div>
-</footer>
-
+      </footer>
     </div>
 
-    <div style="display: none;" id="modal" class="modal">
-    <div class="modal-inner">Это модальное окно fancybox</div>
-</div>
+    <div style="display: none" id="modal" class="modal">
+      <div class="modal-inner">Это модальное окно fancybox</div>
+    </div>
 
     <script src="./js/vendors.js"></script>
-<script src="./js/main.js"></script>
-
-</body>
-
+    <script src="./js/main.js"></script>
+  </body>
 </html>
